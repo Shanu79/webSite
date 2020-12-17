@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+body{
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 75.4%;
+
+background: radial-gradient(58.73% 58.73% at 50% 41.27%, #62001D 0%, #181818 100%);
+}
+header{
+    height: 19px;
+    background-color: #171717;
+}
+nav{
+    height: 102px;
+    background-color: #171717;
+    width: 701px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.firstGreeting{
+    height: 355px;
+    width: 1877px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 251px;
+    display: flex;
+    align-items: center;
+}
+.profilePictureCard{
+    background-color: rgb(77, 0, 0);
+    min-height: 270px;
+    width: 30%;
+    flex: 1;
+}
+.greetingsCard{
+    
+    min-height: 270px;
+    width: 30%;
+    flex: 2;
+}
+.greetingsCard p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 101px;
+    line-height: 118px;
+    text-align: center;
+    color: #FFFFFF;   
+}
+.greetingsCard a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 101px;
+    line-height: 118px;
+    text-align: center;
+    color: #ff0000;   
+}
+.skillCard{
+    
+    min-height: 270px;
+    width: 30%;
+    flex: 2;
+}
+.skillCard p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 101px;
+    line-height: 118px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
