@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+}
+body {
+    background-color: black;
+    background-image: url(images/Untitled-1\ [Recovered].svg);
+    background-size: cover;
+}
+
+header p{
+width: 1366px;
+height: 108px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 77px;
+line-height: 104px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.card1{
+width: 270px;
+height: 150px;
+background: #C4C4C4;
+margin-left: auto;
+margin-right: auto;
+margin-top: 170px;
+border-radius: 30px;
+}
+.button1 {
+width: 190px;
+height: 50px;
+background-color: #C4C4C4;
+margin-left: auto;
+margin-right: auto;
+margin-top: 35px;    
+}
