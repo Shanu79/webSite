@@ -39,8 +39,8 @@ ul li a{
 }
 
 ul li a .icon{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     background:rgb(255, 255, 255);
     overflow: hidden;
@@ -158,32 +158,33 @@ ul li a:hover .name span:before{
     }
 }
 .count-container h2{
-    margin-bottom: 100px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
     font-weight: 500;
-    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.count-count{
-    margin: 40px 0;
+.counter{
+    margin: 30px 0;
 
 }
 
-.count-countd{
+.counterd{
     display: inline-block;
-    width: 80px;
-    height: 80px;
-    border: 2px solid white;
+    min-width: 80px;
+    min-height: 80px;
     margin: 0 30px;
-    font-size: 12px;
-    border-radius: 50%;
+    font-size: 22px;
     overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.count-countd span{
+.counterd span{
     display: block;
-    font-size: 26px;
+    font-size: 37px;
     margin-top: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
 
 } 
