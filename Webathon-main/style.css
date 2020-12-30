@@ -56,7 +56,7 @@ ul li a .icon .nav-svg{
     height: 100%;
     line-height: 40px;
     font-size: 34px;
-    transition: 0.5s;
+    transition: .5s;
     fill:#660066;
     text-align: center;
 }
