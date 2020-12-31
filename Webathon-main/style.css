@@ -9,6 +9,13 @@ html {
     margin-right: auto;
     padding-top: 80px;
 }
+.container {
+
+    width: 1024px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 ul{
@@ -20,7 +27,7 @@ ul{
     padding: 20px 0;
     background:#0000;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
    
 }
 
@@ -113,10 +120,9 @@ ul li a:hover .name span:before{
 }
 
 .count-container{
-    width: 100%;
+    width: 1024px;
     position: absolute;
     top:20%;
-    left: 0%;
     transform: translate(-50% -50%);
     text-align: center;
     color:white;
@@ -128,7 +134,7 @@ ul li a:hover .name span:before{
 }
 .count-container h1{
     
-    font-size: 5em;
+    font-size: 105px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -137,12 +143,13 @@ ul li a:hover .name span:before{
     width:100%;
     text-align: center;
     color: #22003D;
+    letter-spacing: 3px;
     
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.05em;
+    font-weight: 500;
    
 }
-.count-container h1 span{
+.count-container h1{
     opacity: 0;
     display: inline-block;
     animation:animate 1s linear forwards;
@@ -158,14 +165,14 @@ ul li a:hover .name span:before{
     }
 }
 .count-container h2{
-    margin-bottom: 20px;
+    margin-top: 100px;
     font-size: 25px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .counter{
-    margin: 30px 0;
+    margin-top: 53px;
 
 }
 
@@ -188,14 +195,23 @@ ul li a:hover .name span:before{
     font-weight: 700;
 
 } 
-.applyButton{
-    background-color: white;
-    height: 80px;
-    width: 285px;
+.button{
+    
+    width: 1024px;
+    position: absolute;
+    top: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
-.joinButton{
-    background-color: white;
+.button a {
+    background-color: aliceblue;
+    min-width: 285px;
     height: 80px;
-    width: 285px;
+    border-radius: 500px;
+    text-decoration: none;
+    text-align: center;
 }
-  
+    
+
+
