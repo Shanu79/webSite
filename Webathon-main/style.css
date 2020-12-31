@@ -188,3 +188,14 @@ ul li a:hover .name span:before{
     font-weight: 700;
 
 } 
+.applyButton{
+    background-color: white;
+    height: 80px;
+    width: 285px;
+}
+.joinButton{
+    background-color: white;
+    height: 80px;
+    width: 285px;
+}
+  
