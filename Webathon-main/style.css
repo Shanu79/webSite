@@ -196,18 +196,24 @@ ul li a:hover .name span:before{
 
 } 
 .button{
-    
     width: 1024px;
     position: absolute;
     top: 75%;
     display: flex;
     justify-content: space-evenly;
     
+    
 }
-.button a {
+.applyButton{
     background-color: aliceblue;
-    min-width: 285px;
-    height: 80px;
+    padding: 30px 100px;
+    border-radius: 500px;
+    text-decoration: none;
+    text-align: center;
+}
+.joinButton{
+    background-color: aliceblue;
+    padding: 30px 100px;
     border-radius: 500px;
     text-decoration: none;
     text-align: center;
